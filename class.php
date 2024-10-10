@@ -1,3 +1,4 @@
+<?
 class BalanceManager {
     // Функция для списания баланса
     public function debitBalance(&$balance, $amount) {
@@ -26,3 +27,5 @@ $manager->debitBalance($balance, 10.12345678);  // списать 10.12345678
 $manager->creditBalance($balance, 50.87654321); // зачислить 50.87654321
 
 echo "Текущий баланс: $balance";
+
+?>
